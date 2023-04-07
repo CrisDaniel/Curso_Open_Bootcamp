@@ -11,14 +11,14 @@ function* generarID(){  //function*() => es una funcion feneradora(iteradora)
 
 let generadora = generarID();
 
-console.log(generadora.next());
-console.log(generadora.next());
-console.log(generadora.next());
-console.log(generadora.next());
-console.log(generadora.next());
-console.log(generadora.next());
-console.log(generadora.next());
-console.log(generadora.next());
-console.log(generadora.next());
-console.log(generadora.next());
-console.log(generadora.next());
+console.log(generadora.next().value);
+console.log(generadora.next().value);
+console.log(generadora.next().value);
+console.log(generadora.next().value);
+console.log(generadora.next().value);
+console.log(generadora.next().value);
+console.log(generadora.next().value);
+console.log(generadora.next().value);
+console.log(generadora.next().value);
+console.log(generadora.next().value);
+console.log(generadora.next().value);
