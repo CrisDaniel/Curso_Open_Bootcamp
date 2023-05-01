@@ -2,7 +2,7 @@
 //1.- CommonJS - require
 //2.- Import ES6 - import
 
-let moduloMatematicas = require("./matematicas/matematicas.js");
+let moduloMatematicas = require("./matematicas.js");
 
 let factorial = moduloMatematicas.factorial(5);
 console.log("El factorial es: " + factorial);
