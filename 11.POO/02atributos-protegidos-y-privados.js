@@ -37,11 +37,11 @@ persona1.saludo();
 //console.log(persona1.#obtenerEdad());
 console.log(persona1._isDeveloper);
 
-//getter: Funcion que permite obtener atributos/ metodos
+//FIXME :getter: Funcion que permite obtener atributos/ metodos
 
 let edad = persona1.getEdad();
 console.log(edad);
-//Setter: Funcion que permite modificar atributos.
+//TODO :Setter: Funcion que permite modificar atributos.
 
 persona1.setEdad(24);
 console.log(persona1.getEdad());
