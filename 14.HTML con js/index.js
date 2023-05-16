@@ -1,5 +1,8 @@
-const a = 6;
-let b = 4;
+const a = 9;
+let b = 6;
 
-let resultado = document.getElementById("result");
-resultado.innerHTML = `Resultado:${a*b}`;
+new TypeIt("#result", {
+  strings: [`Se multiplicaron dos numeros: a = ${a} y b = ${b}`, `Resultado: ${a * b}`],
+  speed: 50,
+  waitUntilVisible: true,
+}).go();
