@@ -1,0 +1,25 @@
+.seccion{
+    background-color: darkslategray;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.parrafo{
+    background-color: white;
+    padding: 1rem;
+}
+
+.parrafo.agregado{
+    opacity: 0.5;
+}
+
+.img{
+    width: 30px;
+    height: 30px;
+    background-color: darkcyan;
+    margin: 1rem;
+}
+
+.papelera{
+    width: 150px;
+}
